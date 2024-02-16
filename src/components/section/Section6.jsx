@@ -12,16 +12,16 @@ export default function Section6() {
           </div>
 
           <div className="col-lg-5 col-12">
-            <a href="#" className="me-4">
-              The consultation is free, and we never charge an upfront fee.
-            </a>
-
             <a
               href="#section_4"
               className="custom-btn btn smoothscroll bi-telephone"
             >
               <span className="pl-2"></span>
               call us
+            </a>
+            <br />
+            <a href="#" className="">
+              The consultation is free, and we never charge an upfront fee.
             </a>
           </div>
         </div>

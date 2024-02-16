@@ -6,12 +6,12 @@ export default function Section8() {
 
   return (
     <section className="volunteer-section section-padding" id="loan">
-      <div className="flex w-full container text-teal-400 mb-16 h-16 text-lg justify-between gap-2 ">
+      <div className="flex w-full container text-teal-300 mb-16 h-16 text-lg justify-between gap-2 ">
         {programs.map((program, i) => {
           return (
             <button
               key={programs.title}
-              className={`shadow-lg backdrop-blur-md ${
+              className={`shadow-lg backdrop-blur-md font-bold ${
                 i === route ? "bg-[#5bc1ac] text-white" : ""
               } hover:bg-[#5bc1ac] hover:text-slate-100 rounded-md duration-500 w-full`}
               onClick={() => setRoute(i)}
@@ -31,7 +31,7 @@ export default function Section8() {
                     {program.title}
                   </h2>
 
-                  <div className="shadow-2xl flex items-stretch justify-center text-2xl font-thin h-fit text-justify text-white p-6 slide-top rounded-lg bg-sky-400/20 bg-clip-padding backdrop-filter backdrop-blur-sm overflow-hidden bg-opacity-40">
+                  <div className="shadow-2xl flex items-stretch justify-center text-xl font-thin h-[24rem] text-justify text-white p-6 slide-top rounded-lg bg-sky-400/20 bg-clip-padding backdrop-filter backdrop-blur-sm overflow-hidden bg-opacity-40">
                     {/* <span className=" bg-violet-600  h-16 w-full absolute -left-0 -top-0 blur-sm -z-10 slide-right"></span> */}
                     <div className="">{program.description}</div>
                   </div>

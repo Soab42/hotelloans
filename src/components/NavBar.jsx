@@ -1,5 +1,9 @@
+import { useEffect } from "react";
 import Logo from "../template/assets/logo.png";
+import { useState } from "react";
 export default function NavBar({ scroll }) {
+  const [route, setRoute] = useState();
+
   return (
     <nav
       className={`${
@@ -17,30 +21,53 @@ export default function NavBar({ scroll }) {
 
         <div className="">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <a className="nav-link click-scroll" href="#top">
+            <li className="nav-item" onClick={() => setRoute()}>
+              <a
+                className={`nav-link click-scroll ${!route ? "active" : ""}`}
+                href="#"
+              >
                 Home
               </a>
             </li>
 
-            <li className="nav-item">
-              <a className="nav-link click-scroll" href="#about">
+            <li className="nav-item" onClick={() => setRoute("about")}>
+              <a
+                className={`nav-link click-scroll ${
+                  route == "about" ? "active" : ""
+                }`}
+                href="#about"
+              >
                 About
               </a>
             </li>
 
-            <li className="nav-item">
-              <a className="nav-link click-scroll" href="#loan">
+            <li className="nav-item" onClick={() => setRoute("loan")}>
+              <a
+                className={`nav-link click-scroll ${
+                  route == "loan" ? "active" : ""
+                }`}
+                href="#loan"
+              >
                 Loan
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link click-scroll" href="#blog">
+            <li className="nav-item" onClick={() => setRoute("blog")}>
+              <a
+                className={`nav-link click-scroll ${
+                  route == "blog" ? "active" : ""
+                }`}
+                href="#blog"
+              >
                 Blog
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link click-scroll" href="#contact">
+            <li className="nav-item" onClick={() => setRoute("contact")}>
+              <a
+                className={`nav-link click-scroll ${
+                  route == "contact" ? "active" : ""
+                }`}
+                href="#contact"
+              >
                 Contact
               </a>
             </li>

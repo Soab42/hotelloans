@@ -64,7 +64,7 @@ export default function Section11() {
 
               <p className="mb-4">
                 Or, you can just send an email:
-                <a href="#">info@charity.org</a>
+                <a href="#">sales@hotelloans.net</a>
               </p>
               <div className="row">
                 <div className="col-lg-6 col-md-6 col-12">
@@ -99,16 +99,19 @@ export default function Section11() {
                 placeholder="Jackdoe@gmail.com"
                 required
               />
-              <select name="type" className="form-control" id="type">
-                <option className="bg-pink-500" value="">
-                  Select Type of Loan
-                </option>
-              </select>
               <input
-                type="number"
+                type="text"
+                name="type"
+                id="type"
+                className="form-control"
+                placeholder="Loan Type"
+                required
+              />
+
+              <input
+                type="text"
                 name="amount"
                 id="amount"
-                pattern="[^ @]*@[^ @]*"
                 className="form-control"
                 placeholder="100M"
                 required

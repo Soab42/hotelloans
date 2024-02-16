@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="site-footer">
       <div className="container">
@@ -14,31 +15,31 @@ export default function Footer() {
 
             <ul className="footer-menu">
               <li className="footer-menu-item">
-                <a href="#" className="footer-menu-link">
+                <a href="#about" className="footer-menu-link">
                   Our Story
                 </a>
               </li>
 
               <li className="footer-menu-item">
-                <a href="#" className="footer-menu-link">
-                  Newsroom
+                <a href="#client" className="footer-menu-link">
+                  Client
                 </a>
               </li>
 
               <li className="footer-menu-item">
-                <a href="#" className="footer-menu-link">
-                  Causes
+                <a href="#faq" className="footer-menu-link">
+                  FAQs
                 </a>
               </li>
 
               <li className="footer-menu-item">
-                <a href="#" className="footer-menu-link">
-                  Become a volunteer
+                <a href="#loan" className="footer-menu-link">
+                  loan
                 </a>
               </li>
 
               <li className="footer-menu-item">
-                <a href="#" className="footer-menu-link">
+                <a href="#partner" className="footer-menu-link">
                   Partner with us
                 </a>
               </li>
@@ -90,7 +91,7 @@ sales@hotelloans.net"
           <div className="row">
             <div className="col-lg-6 col-md-7 col-12">
               <p className="copyright-text mb-0">
-                Copyright © {Date.now()} <a href="#">hotel laons</a>
+                Copyright © {currentYear} <a href="#">hotel laons</a>
               </p>
             </div>
 

@@ -80,7 +80,7 @@ export default function Section10() {
   }
 
   return (
-    <section className="testimonial-section section-padding section-bg">
+    <section className="testimonial-section section-padding section-bg" id="">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 col-12 mx-auto">
