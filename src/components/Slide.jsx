@@ -13,7 +13,7 @@ export default function Slide({ show, data }) {
         alt="..."
       />
       <div className="absolute z-50 left-0 top-2/4 w-full flex flex-col items-center justify-center  slide-left backdrop-brightness-105 backdrop-blur-sm p-3 h-fit">
-        <p className="font-bold text-7xl text-violet-950 w-4/6 slide-left">
+        <p className="font-bold text-7xl text-[#606fab] w-4/6 slide-left">
           {data.title}
         </p>
 

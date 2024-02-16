@@ -1,7 +1,7 @@
 export const clientData = [
   {
     hotelName: "Serenity Springs Resort",
-    imageSrc: "/assets/12.jpg",
+    imageSrc: "https://i.ibb.co/pyqsYxn/12.jpg",
     loanAmount: 100,
     location: "New York",
     rating: 4.7,
@@ -14,7 +14,7 @@ export const clientData = [
   },
   {
     hotelName: "Willow Grove Inn",
-    imageSrc: "/assets/13.jpg",
+    imageSrc: "https://i.ibb.co/GJjYk47/13.jpg",
     loanAmount: 150,
     location: "Los Angeles",
     rating: 4.5,
@@ -27,7 +27,7 @@ export const clientData = [
   },
   {
     hotelName: "Azure Haven Retreat",
-    imageSrc: "/assets/16.jpg",
+    imageSrc: "https://i.ibb.co/KDBby0y/16.jpg",
     loanAmount: 200,
     location: "Chicago",
     rating: 4.3,
@@ -40,7 +40,7 @@ export const clientData = [
   },
   {
     hotelName: "Whispering Pines Lodge",
-    imageSrc: "/assets/11.jpg",
+    imageSrc: "https://i.ibb.co/x1452dq/11.jpg",
     loanAmount: 120,
     location: "Miami",
     rating: 4.6,
@@ -53,7 +53,7 @@ export const clientData = [
   },
   {
     hotelName: "Emerald Bay Resort",
-    imageSrc: "/assets/10.jpg",
+    imageSrc: "https://i.ibb.co/NmjQLbd/10.jpg",
     loanAmount: 180,
     location: "San Francisco",
     rating: 4.8,
@@ -66,7 +66,7 @@ export const clientData = [
   },
   {
     hotelName: "Moonlight Manor",
-    imageSrc: "/assets/7.jpg",
+    imageSrc: "https://i.ibb.co/s5SCFzv/7.jpg",
     loanAmount: 130,
     location: "Seattle",
     rating: 4.4,
@@ -79,7 +79,7 @@ export const clientData = [
   },
   {
     hotelName: "Tranquil Oasis Hotel",
-    imageSrc: "/assets/6.jpg",
+    imageSrc: "https://i.ibb.co/frvmJCx/6.jpg",
     loanAmount: 160,
     location: "Las Vegas",
     rating: 4.7,
@@ -92,7 +92,7 @@ export const clientData = [
   },
   {
     hotelName: "Golden Sunrise Lodge",
-    imageSrc: "/assets/5.jpg",
+    imageSrc: "https://i.ibb.co/LZ7zYkL/5.jpg",
     loanAmount: 140,
     location: "Orlando",
     rating: 4.6,
@@ -105,7 +105,7 @@ export const clientData = [
   },
   {
     hotelName: "Enchanted Garden Inn",
-    imageSrc: "/assets/4.jpg",
+    imageSrc: "https://i.ibb.co/6s29kq0/4.jpg",
     loanAmount: 170,
     location: "Boston",
     rating: 4.5,
@@ -118,7 +118,7 @@ export const clientData = [
   },
   {
     hotelName: "Crystal Waters Resort",
-    imageSrc: "/assets/3.jpg",
+    imageSrc: "https://i.ibb.co/WGP0ryk/3.jpg",
     loanAmount: 190,
     location: "San Diego",
     rating: 4.7,

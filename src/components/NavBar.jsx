@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import Logo from "../template/assets/logo.png";
 import { useState } from "react";
 export default function NavBar({ scroll }) {
   const [route, setRoute] = useState();
@@ -12,7 +10,11 @@ export default function NavBar({ scroll }) {
     >
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img src={Logo} className="logo img-fluid" alt="Hotels Loans" />
+          <img
+            src={"https://i.ibb.co/Fs0RFBR/logo.png"}
+            className="logo img-fluid h-10"
+            alt="Hotels Loans"
+          />
         </a>
 
         <button className="navbar-toggler" type="button">
@@ -51,7 +53,7 @@ export default function NavBar({ scroll }) {
                 Loan
               </a>
             </li>
-            <li className="nav-item" onClick={() => setRoute("blog")}>
+            {/* <li className="nav-item" onClick={() => setRoute("blog")}>
               <a
                 className={`nav-link click-scroll ${
                   route == "blog" ? "active" : ""
@@ -60,7 +62,7 @@ export default function NavBar({ scroll }) {
               >
                 Blog
               </a>
-            </li>
+            </li> */}
             <li className="nav-item" onClick={() => setRoute("contact")}>
               <a
                 className={`nav-link click-scroll ${

@@ -33,7 +33,7 @@ export default function Section9() {
                 })}
               </div>
               <div className=" h-[45rem] w-1/2 p-4 flex justify-center items-center flex-col">
-                <img src="/assets/ask.jpg" alt="" />
+                <img src="https://i.ibb.co/GnFtQyL/ask.jpg" alt="" />
                 <h2>Have More Questions?</h2>
                 <p className=" text-xl text-justify">
                   We’re Here to Answer All Your Questions About Hotel Financing.
