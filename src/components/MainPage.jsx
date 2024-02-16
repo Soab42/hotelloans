@@ -6,7 +6,7 @@ import Section5 from "./section/Section5";
 import Section6 from "./section/Section6";
 import Section7 from "./section/Section7";
 import Section8 from "./section/Section8";
-// import Section9 from "./section/Section9";
+import Section9 from "./section/Section9";
 import Section10 from "./section/Section10";
 import Section11 from "./section/Section11";
 
@@ -18,11 +18,11 @@ export default function MainPage() {
       <Section3 />
       <Section4 />
       <Section5 />
-      <Section6 />
       <Section7 />
       <Section8 />
-      {/* <Section9 /> */}
       <Section10 />
+      <Section9 />
+      <Section6 />
       <Section11 />
     </main>
   );

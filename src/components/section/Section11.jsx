@@ -99,7 +99,20 @@ export default function Section11() {
                 placeholder="Jackdoe@gmail.com"
                 required
               />
-
+              <select name="type" className="form-control" id="type">
+                <option className="bg-pink-500" value="">
+                  Select Type of Loan
+                </option>
+              </select>
+              <input
+                type="number"
+                name="amount"
+                id="amount"
+                pattern="[^ @]*@[^ @]*"
+                className="form-control"
+                placeholder="100M"
+                required
+              />
               <textarea
                 name="message"
                 rows="5"

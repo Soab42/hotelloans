@@ -25,15 +25,15 @@ export default function Section8() {
         {programs.map((program, i) => {
           if (route === i) {
             return (
-              <div className="row" key={program.title}>
+              <div className="row h-[32rem]" key={program.title}>
                 <div className="col-lg-6 col-12">
                   <h2 className="text-white mb-4 slide-right">
                     {program.title}
                   </h2>
 
-                  <div className="shadow-2xl flex items-stretch justify-center text-2xl font-thin h-[21rem] text-justify text-white p-6 slide-top rounded-lg bg-sky-400/30 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40">
-                    <span className=" bg-white/10 h-full w-36 mr-2  left-0 top-0 -z-10"></span>
-                    {program.description}
+                  <div className="shadow-2xl flex items-stretch justify-center text-2xl font-thin h-fit text-justify text-white p-6 slide-top rounded-lg bg-sky-400/20 bg-clip-padding backdrop-filter backdrop-blur-sm overflow-hidden bg-opacity-40">
+                    {/* <span className=" bg-violet-600  h-16 w-full absolute -left-0 -top-0 blur-sm -z-10 slide-right"></span> */}
+                    <div className="">{program.description}</div>
                   </div>
                 </div>
 
