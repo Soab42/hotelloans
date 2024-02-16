@@ -1,7 +1,8 @@
 import { useState } from "react";
 export default function NavBar({ scroll }) {
   const [route, setRoute] = useState();
-  const [isOpen, setIsopen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  console.log(isOpen);
   return (
     <nav
       className={`${
@@ -20,14 +21,14 @@ export default function NavBar({ scroll }) {
         <button
           className="navbar-toggler"
           type="button"
-          onClick={() => setIsopen(!isOpen)}
+          onClick={() => setIsOpen(!isOpen)}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
 
         <div
           className={`${
-            isOpen
+            !isOpen
               ? "hidden xl:block"
               : "absolute left-0 top-14 bg-white w-full slide-right"
           }`}

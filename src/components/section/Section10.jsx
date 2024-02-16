@@ -21,7 +21,7 @@ export default function Section10() {
     content = (
       <div className="carousel-item active " key={1}>
         <div className="carousel-caption">
-          <h4 className="carousel-title slide-right text-xl">
+          <h4 className="carousel-title slide-right text-xl xl:text-3xl">
             Sed leo nisl, posuere at molestie ac, suscipit auctor mauris quis
             metus tempor orci
           </h4>
@@ -36,7 +36,7 @@ export default function Section10() {
     content = (
       <div className="carousel-item active " key={2}>
         <div className="carousel-caption">
-          <h4 className="carousel-title slide-left text-xl">
+          <h4 className="carousel-title slide-left text-xl xl:text-3xl">
             Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm
             tokito charity theme
           </h4>
@@ -51,7 +51,7 @@ export default function Section10() {
     content = (
       <div className="carousel-item active " key={3}>
         <div className="carousel-caption">
-          <h4 className="carousel-title slide-right text-xl">
+          <h4 className="carousel-title slide-right text-xl xl:text-3xl">
             Sint quae natus harum tempora dolor velit aspernatur nesciunt!
             Neque!
           </h4>
@@ -66,7 +66,7 @@ export default function Section10() {
     content = (
       <div className="carousel-item active" key={4}>
         <div className="carousel-caption">
-          <h4 className="carousel-title slide-left text-xl" key={4}>
+          <h4 className="carousel-title slide-left text-xl xl:text-3xl" key={4}>
             alias nobis incidunt enim id suscipit ipsa, aperiam animi doloremque
             vero explicabo. Odio obcaecati aperiam?
           </h4>
@@ -84,7 +84,7 @@ export default function Section10() {
       <div className="container">
         <div className="row">
           <div className="col-lg-8 col-12 mx-auto">
-            <h2 className="mb-lg-3 ">Happy Customers</h2>
+            <h2 className="mb-lg-3 xl:text-7xl text-3xl ">Happy Customers</h2>
 
             <div
               id="testimonial-carousel"

@@ -8,7 +8,7 @@ export default function Section11() {
         <div className="row">
           <div className="col-lg-4 col-12 ms-auto mb-5 mb-lg-0">
             <div className="contact-info-wrap">
-              <h2>Get in touch</h2>
+              <h2 className="text-3xl">Get in touch</h2>
 
               <div className="contact-image-wrap d-flex flex-wrap">
                 <img src={Avatar} className="img-fluid avatar-image" alt="" />
@@ -22,7 +22,7 @@ export default function Section11() {
               </div>
 
               <div className="contact-info">
-                <h5 className="mb-3">Contact Infomation</h5>
+                <h5 className="mb-3 text-3xl">Contact Infomation</h5>
 
                 <p className="d-flex mb-2">
                   <i className="bi-geo-alt me-2"></i>
@@ -43,7 +43,7 @@ export default function Section11() {
 
                 <a
                   href="https://www.google.com/maps/place/123+Main+St,+Queens,+NY+10001,+USA/@40.7626859,-73.8340686,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2600ff31a3f4f:0xaeb90c61fe2e88fe!8m2!3d40.7626819!4d-73.8314937!16s%2Fg%2F11q2x8m5lk?entry=ttu"
-                  className="custom-btn btn mt-3"
+                  className="custom-btn btn mt-3 text-sm"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -60,7 +60,7 @@ export default function Section11() {
               method="post"
               role="form"
             >
-              <h2>Contact form</h2>
+              <h2 className="text-4xl">Contact form</h2>
 
               <p className="mb-4">
                 Or, you can just send an email:

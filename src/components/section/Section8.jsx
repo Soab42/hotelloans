@@ -37,7 +37,7 @@ export default function Section8() {
                   </div>
                 </div>
 
-                <div className="col-lg-6 col-12">
+                <div className="col-lg-6 col-12 hidden xl:block">
                   <img
                     src={program.img}
                     className="rounded-2xl w-full slide-left h-[26rem]"

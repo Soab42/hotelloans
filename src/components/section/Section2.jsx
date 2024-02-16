@@ -4,7 +4,7 @@ export default function Section2() {
       <div className="container">
         <div className="row">
           <div className="col-lg-10 col-12 text-center mx-auto">
-            <p className="xl:text-7xl text-5xl text-emerald-500 font-bold mb-5">
+            <p className="xl:text-7xl text-3xl text-emerald-500 font-bold mb-5">
               Welcome to Hotel Loans{" "}
             </p>
             <h2 className="xl:text-2xl text-xl">
