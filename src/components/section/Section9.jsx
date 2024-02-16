@@ -10,15 +10,15 @@ export default function Section9() {
 
   return (
     <section
-      className="news-section section-padding overflow-hidden h-[65rem]"
+      className="news-section section-padding overflow-hidden h-fit"
       id="faq"
     >
       <div className="container">
         <div className="row">
           <div className="col-lg-12 col-12 mb-5">
-            <h2>Frequently Asked Questions</h2>
-            <div className="flex">
-              <div className="flex flex-col w-1/2 mt-5 gap-1">
+            <h2 className="text-3xl">Frequently Asked Questions</h2>
+            <div className="flex flex-col xl:flex-row">
+              <div className="flex flex-col xl:w-1/2 mt-5 gap-1">
                 {FAQs.map((q, i) => {
                   return (
                     <FAQ
@@ -32,9 +32,9 @@ export default function Section9() {
                   );
                 })}
               </div>
-              <div className=" h-[45rem] w-1/2 p-4 flex justify-center items-center flex-col">
+              <div className=" xl:h-[45rem] xl:w-1/2 p-4 flex justify-center items-center flex-col">
                 <img src="https://i.ibb.co/GnFtQyL/ask.jpg" alt="" />
-                <h2>Have More Questions?</h2>
+                <h2 className="text-3xl">Have More Questions?</h2>
                 <p className=" text-xl text-justify">
                   We’re Here to Answer All Your Questions About Hotel Financing.
                   Left side are answers to some of the most common questions

@@ -28,12 +28,12 @@ function Section7() {
                   <div
                     className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0 slide-left"
                     key={client.hotelName}
-                    style={{ minWidth: "300px" }} // Ensure a minimum width for the card
+                    // Ensure a minimum width for the card
                   >
                     <div className="custom-block-wrap">
                       <img
                         src={client.imageSrc}
-                        className="custom-block-image img-fluid h-80"
+                        className="custom-block-image img-fluid xl:h-80 h-60"
                         alt=""
                       />
 

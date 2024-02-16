@@ -1,14 +1,14 @@
 import { useState } from "react";
 export default function NavBar({ scroll }) {
   const [route, setRoute] = useState();
-
+  const [isOpen, setIsopen] = useState(false);
   return (
     <nav
       className={`${
         scroll ? "fixed w-full z-50 top-0 flex " : ""
-      } bg-light shadow-lg navbar-expand-lg navbar`}
+      } bg-light shadow-lg navbar-expand-lg navbar `}
     >
-      <div className="container">
+      <div className="container relative">
         <a className="navbar-brand" href="#">
           <img
             src={"https://i.ibb.co/Fs0RFBR/logo.png"}
@@ -17,11 +17,21 @@ export default function NavBar({ scroll }) {
           />
         </a>
 
-        <button className="navbar-toggler" type="button">
+        <button
+          className="navbar-toggler"
+          type="button"
+          onClick={() => setIsopen(!isOpen)}
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="">
+        <div
+          className={`${
+            isOpen
+              ? "hidden xl:block"
+              : "absolute left-0 top-14 bg-white w-full slide-right"
+          }`}
+        >
           <ul className="navbar-nav ms-auto">
             <li className="nav-item" onClick={() => setRoute()}>
               <a

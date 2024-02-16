@@ -6,7 +6,7 @@ export default function Section6() {
       <div className="container">
         <div className="row justify-content-center align-items-center">
           <div className="col-lg-5 col-12 ms-auto">
-            <h2 className="mb-0">
+            <h2 className="mb-0 text-4xl">
               We Know Your Time is Valuable, and We Don’t Want to Waste it.
             </h2>
           </div>

@@ -21,7 +21,7 @@ export default function Section10() {
     content = (
       <div className="carousel-item active " key={1}>
         <div className="carousel-caption">
-          <h4 className="carousel-title slide-right">
+          <h4 className="carousel-title slide-right text-xl">
             Sed leo nisl, posuere at molestie ac, suscipit auctor mauris quis
             metus tempor orci
           </h4>
@@ -36,7 +36,7 @@ export default function Section10() {
     content = (
       <div className="carousel-item active " key={2}>
         <div className="carousel-caption">
-          <h4 className="carousel-title slide-left">
+          <h4 className="carousel-title slide-left text-xl">
             Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm
             tokito charity theme
           </h4>
@@ -51,7 +51,7 @@ export default function Section10() {
     content = (
       <div className="carousel-item active " key={3}>
         <div className="carousel-caption">
-          <h4 className="carousel-title slide-right">
+          <h4 className="carousel-title slide-right text-xl">
             Sint quae natus harum tempora dolor velit aspernatur nesciunt!
             Neque!
           </h4>
@@ -66,7 +66,7 @@ export default function Section10() {
     content = (
       <div className="carousel-item active" key={4}>
         <div className="carousel-caption">
-          <h4 className="carousel-title slide-left" key={4}>
+          <h4 className="carousel-title slide-left text-xl" key={4}>
             alias nobis incidunt enim id suscipit ipsa, aperiam animi doloremque
             vero explicabo. Odio obcaecati aperiam?
           </h4>

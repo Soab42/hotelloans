@@ -204,7 +204,12 @@ strong {
   width: 30rem;
   transition: all 0.5s;
 }
-
+@media screen and (max-width: 768px) {
+  .custom-block-wrap {
+    /* Add your styles for smaller screens here */
+    width: 100%; /* For example, make the width 100% on smaller screens */
+  }
+}
 .custom-block-wrap:hover {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
 }

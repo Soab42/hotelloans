@@ -9,7 +9,7 @@ export default function Section4() {
           <div className="col-lg-6 col-md-5 col-12">
             <img
               src={Charity}
-              className="about-image ms-lg-auto bg-light shadow-lg img-fluid h-full w-1/2"
+              className="about-image ms-lg-auto bg-light shadow-lg img-fluid size-96"
               alt=""
             />
           </div>
