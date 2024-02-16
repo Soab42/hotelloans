@@ -25,30 +25,6 @@ export default function Section1() {
               data-bs-ride="carousel"
             >
               <div className={`carousel-inner `}>
-                <div
-                  className={`carousel-item  relative ${
-                    show === 0 ? "active" : ""
-                  }   `}
-                >
-                  <img
-                    src={Box}
-                    className="carousel-image slide-right img-fluid blur-sm brightness-75"
-                    alt="..."
-                  />
-
-                  <div className="absolute z-50 left-0 top-1 w-full flex flex-col items-center justify-center h-full slide-left">
-                    <p className="font-bold text-7xl text-sky-500 w-4/6 slide-left">
-                      Elevate Your Hotel Business with Our Financing Solutions!
-                    </p>
-
-                    <p className="text-2xl  pr-20  text-orange-500 w-4/6">
-                      Understand the unique financial challenges of today. That
-                      &#39; s why we are excited to introduce tailored financing
-                      solutions designed to elevate your hotel business to new
-                      heights.
-                    </p>
-                  </div>
-                </div>
                 {slideData.map((sd, i) => {
                   if (i === show) {
                     return <Slide show={show} data={sd} key={sd.title} />;
