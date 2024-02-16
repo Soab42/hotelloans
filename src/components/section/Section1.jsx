@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import Box from "/assets/1.jpg";
 
 import Slide from "../Slide";
 import { slideData } from "../../data/slide";
