@@ -21,7 +21,7 @@ export default function Section4() {
               </p>
 
               <p>
-                Sandy Chan is a dynamic entrepreneur and co-founder of Hotel
+                Sam Haque is a dynamic entrepreneur and co-founder of Hotel
                 Loans, a pioneering financial firm specializing in providing
                 tailored loan solutions for the hospitality industry. With a
                 deep understanding of the intricacies of hotel financing, Sandy
@@ -30,14 +30,14 @@ export default function Section4() {
               </p>
 
               <p>
-                Sandy is dedicated to offering innovative financing options that
+                Sam is dedicated to offering innovative financing options that
                 meet the unique needs of each client. Her visionary leadership
                 and commitment to excellence have positioned Hotel Loans as a
                 trusted partner for hotel owners and investors nationwide.
               </p>
 
               <p>
-                Sandy's expertise extends beyond traditional lending practices,
+                Sam's expertise extends beyond traditional lending practices,
                 as she continuously seeks out new opportunities and creative
                 solutions to support the success of her clients. Under her
                 guidance, Hotel Loans has established a reputation for
