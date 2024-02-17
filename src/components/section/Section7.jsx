@@ -19,7 +19,7 @@ function Section7() {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 col-12 text-center mb-4">
-            <h2>Our Happiness</h2>
+            <h2>Recently Funded Loan Scenarios</h2>
           </div>
           <div className="flex overflow-scroll gap-2 px-2 cardDiv">
             {clientData.map((client, index) => {
