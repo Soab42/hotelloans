@@ -1,5 +1,5 @@
  import React from "react";
-import Charity from "../../template/images/portrait-volunteer-who-organized-donations-charity.jpg";
+
 
 export default function Section4() {
   return (
@@ -8,7 +8,7 @@ export default function Section4() {
         <div className="row">
           <div className="col-lg-6 col-md-5 col-12">
             <img
-              src={Charity}
+              src={'https://img.freepik.com/free-photo/businessman-with-his-arms-crossed-white-background_1368-6001.jpg?w=996&t=st=1708141475~exp=1708142075~hmac=7e323caa8d78ab1c7fe867093001777377ba9b8c7ddbaa6aa6ee204470eebe4d'}
               className="about-image ms-lg-auto bg-light shadow-lg img-fluid xl:w-96 w-full"
               alt=""
             />
