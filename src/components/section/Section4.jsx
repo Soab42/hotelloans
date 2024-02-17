@@ -8,8 +8,7 @@ export default function Section4() {
         <div className="row">
           <div className="col-lg-6 col-md-5 col-12">
             <img
-              src={'https://img.freepik.com/free-photo/elegant-businessman-office_155003-9641.jpg?w=996&t=st=1708141821~exp=1708142421~hmac=52692cdb2f1b6aa7f4180e07250af7dad508233fa46725be0beafd3a39ac1fce'}
-              className="about-image ms-lg-auto bg-light shadow-lg img-fluid xl:w-96 w-full"
+              src={'https://img.freepik.com/free-photo/elegant-businessman-office_155003-9641.jpg?w=996&t=st=1708141821~exp=1708142421~hmac=52692cdb2f1b6aa7f4180e07250af7dad508233fa46725be0beafd3a39ac1fce'}  className="about-image ms-lg-auto bg-light shadow-lg img-fluid xl:w-96 w-full"
               alt=""
             />
           </div>
