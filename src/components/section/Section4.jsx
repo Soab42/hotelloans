@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import Charity from "../../template/images/portrait-volunteer-who-organized-donations-charity.jpg";
 
 export default function Section4() {
@@ -15,7 +15,7 @@ export default function Section4() {
           </div>
           <div className="col-lg-5 col-md-7 col-12">
             <div className="custom-text-block text-justify">
-              <h2 className="mb-0">Sandy Chan</h2>
+              <h2 className="mb-0">Sam Haque</h2>
 
               <p className="text-muted mb-lg-4 mb-md-4">
                 Co-Founder, Hotel Loans
